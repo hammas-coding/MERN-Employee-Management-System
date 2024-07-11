@@ -1,0 +1,68 @@
+.heading {
+  font-size: 2.5rem;
+}
+
+.formGroup {
+  margin: 1.25rem 0;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.image {
+  width: 90%;
+  height: 90%;
+}
+.loginText {
+  text-decoration: none;
+  font-weight: 500;
+}
+.buttonMain {
+  border-radius: 20px;
+  padding: 0;
+  background-color: #33d9b2;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: #3e3e3e;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  color: #33d9b2;
+  font-weight: 600;
+  border: 1px solid #33d9b2;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #33d9b2;
+  color: #3e3e3e;
+  border: 1px solid #3e3e3e;
+}
+.label,
+.loginText {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3e3e3e;
+}
+.loginText {
+  font-weight: 600;
+}
+.heading {
+  color: #3e3e3e;
+}
+@media (max-width: 767px) {
+  .image {
+    display: none !important;
+  }
+  .formCol {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .label {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,105 @@
+.formGroup {
+  margin: 1.25rem 0;
+  background-color: #3e3e3e;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #3e3e3e;
+  color: #33d9b2;
+}
+
+.buttonMain {
+  border-radius: 20px;
+  padding: 0;
+  background-color: #3e3e3e;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: #33d9b2;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  color: #3e3e3e;
+  font-weight: 600;
+  border: 1px solid #3e3e3e;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #3e3e3e;
+  color: #33d9b2;
+  border: 1px solid #33d9b2;
+}
+
+.link {
+  margin-right: 15px !important;
+  border-radius: 5px;
+  color: #33d9b2 !important;
+  font-weight: 500 !important;
+  border: 1px solid #3e3e3e;
+}
+.link:hover {
+  border: 1px solid #33d9b3;
+}
+.logo {
+  color: #33d9b2 !important;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-right: 15px !important;
+}
+.cardMain {
+  background-color: #3e3e3e !important;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+}
+.mainText {
+  background-color: #3e3e3e;
+  color: #33d9b2;
+}
+.hr {
+  color: #33d9b2;
+}
+.formMain {
+  background-color: #3e3e3e;
+}
+.cardMainInner {
+  background-color: #3e3e3e !important;
+  border-radius: 20px;
+}
+.manageText {
+  color: #3e3e3e;
+  margin-bottom: 1rem;
+}
+.table,
+.thead,
+.tbody {
+  border-radius: 10px !important;
+}
+.th {
+  background-color: #3e3e3e !important;
+  color: #33d9b2 !important;
+}
+.td {
+  background-color: #3e3e3e !important;
+  color: #33d9b2 !important;
+}
+.buttonTd {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3e3e3e !important;
+  color: #33d9b2 !important;
+}
+@media (max-width: 570px) {
+  .buttonTd {
+    flex-direction: column;
+  }
+  .table {
+    font-size: 12px;
+  }
+  .th,
+  .td {
+    padding: 0.5rem;
+  }
+}
